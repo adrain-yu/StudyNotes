@@ -206,19 +206,19 @@
             <mxPoint x="1660" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-61" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. load AUX die FW to ISRAM&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;release aux die mcu&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-61" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. load ADFW to AD SRAM&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;release AD MCU&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="1620" y="1615" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-65" target="43JC9lhxO4K5G4KCc76D-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-65" value="a. 设置时钟" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-65" value="a. enable pclk release preset" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1769" y="1630" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-68" target="43JC9lhxO4K5G4KCc76D-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-68" value="b. 初始化OTP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-68" value="b. init otp" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1769" y="1710" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-74" target="43JC9lhxO4K5G4KCc76D-76" edge="1">
@@ -263,7 +263,7 @@
         <mxCell id="43JC9lhxO4K5G4KCc76D-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-85" target="43JC9lhxO4K5G4KCc76D-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-85" value="&lt;font&gt;5. 启动超时定时器并等待aux die完成&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-85" value="&lt;font&gt;6. 启动超时定时器并等待aux die完成&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="1620" y="1710" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-87" target="43JC9lhxO4K5G4KCc76D-109" edge="1">
@@ -359,7 +359,7 @@
         <mxCell id="43JC9lhxO4K5G4KCc76D-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-111" target="43JC9lhxO4K5G4KCc76D-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-111" value="load repair code into sram" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-111" value="load repair code into sram" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="1950" y="1760" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-116" value="do something" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
@@ -368,7 +368,7 @@
         <mxCell id="43JC9lhxO4K5G4KCc76D-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-119" target="43JC9lhxO4K5G4KCc76D-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="43JC9lhxO4K5G4KCc76D-119" value="start timeout timer， wait repair done" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="1" vertex="1">
+        <mxCell id="43JC9lhxO4K5G4KCc76D-119" value="start timeout timer， wait repair done" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="1950" y="1840" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="43JC9lhxO4K5G4KCc76D-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="43JC9lhxO4K5G4KCc76D-121" target="43JC9lhxO4K5G4KCc76D-99" edge="1">
